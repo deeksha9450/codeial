@@ -10,5 +10,6 @@ app.listen(port,function(err){
     if(err){
         console.log(`oops ! there is something wrong:${err}`);
     }
-    console.log(`Weehuu !! Server is running on port:${port}`);
+    
+    console.log(`Weehuu !! Server is running on port${port}`);
 });
